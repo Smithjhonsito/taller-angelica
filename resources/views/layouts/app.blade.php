@@ -18,16 +18,16 @@
 </head>
 <body class="bg-gray-90 text gray-800" >
 
-    <nav class="flex py-5 bg-dark text-white " >
+    <nav class="flex py-2 bg-dark text-white " >
 
-    <div  class="w-1/2 px-12 mr-auto" >
+    <div  class="w-1/2 px-8 mr-auto" >
         <p class="text-2xl foont-bold">LOOPSTUDIOS</p>
     </div>
 
         <ul  class="text-center" >
                {{--creando una lista alineada  --}}
             <li>
-                <a  href="{{route('login.index')}}" class="font-semibold hover:bg-indigo-700 py-3 px4  rounded-md" >Iniciar  sesión</a>
+                <a  href="{{route('login.index')}}" class="font-semibold border-2 border-white py-2 px4 rounded-md hover:bg-white hover:text-indigo-700" >Iniciar  sesión</a>
                 <br>
                 <br>
                 <br>

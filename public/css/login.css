@@ -6,3 +6,10 @@
 
 
 }
+body{
+  
+    background-image: url(/img/fondos7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 5;
+  }
