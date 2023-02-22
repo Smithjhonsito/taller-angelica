@@ -34,7 +34,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="/reclutamientos">Reclutamiento</a></li>
               <li><a class="dropdown-item" href="/respuestas">Respuestas taller</a></li>
-              <li><a class="dropdown-item" href="/">PDF</a></li>
+              <li><a class="dropdown-item" href="{{route('pdf.pdf')}}">PDF</a></li>
               <li><a class="dropdown-item" href="/">Home</a></li>
             </ul>
           </li>

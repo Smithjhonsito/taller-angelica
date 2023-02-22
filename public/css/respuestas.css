@@ -23,3 +23,153 @@ body{
   background-size: cover;
   opacity: 5;
 }
+
+p{
+  text-align: center;
+  font-size: 25px;
+  font-family: Consolas;
+}
+
+nav {
+  background-color: rgb(165, 162, 162);
+  animation-name: animacion !important;
+  animation-duration: 0.5s;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  margin: 3px;
+}
+
+a:hover {
+  color: rgb(75, 73, 73);
+  animation-name: animacionButton !important;
+  animation-duration: 0.2s;
+  position: relative;
+}
+
+.nav {
+  float: right;
+}
+
+.img {
+  text-align: center;
+}
+
+img:hover {
+  animation-name: animacionImg;
+  animation-duration: 0.5s;
+  position: relative;
+}
+
+@keyframes animacion {
+
+  0% {
+    bottom: -50px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+
+}
+
+@keyframes animacionButton {
+
+  0% {
+    bottom: -3px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+
+}
+
+@keyframes animacionImg {
+
+  0% {
+    bottom: 0px;
+  }
+
+  50% {
+    bottom: 10px;
+  }
+
+  100% {
+    bottom: 0px;
+  }
+
+}
+
+input[type="text"] {
+  color: black;
+  background-color: aliceblue;
+}
+
+footer {
+  text-decoration: none;
+}
+
+.footer {
+  text-align: center;
+  text-decoration: none;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  text-decoration: none;
+}
+
+ol {
+  color: black;
+  font-style: bold;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+label {
+  font-size: 20px;
+}
+
+label:hover {
+  animation-name: animacionButton;
+  animation-duration: .3s;
+  position: relative;
+}
+
+.preguntas {
+  align-items: center;
+}
+
+.textarea {
+  text-align: center;
+}
+
+textarea {
+  text-align: center;
+}
+
+.button{
+  text-align: center;
+}
+
+button{
+  border-radius: 10px !important;
+  font-family: Consolas;
+  font-size: 15px;
+  margin: 20px;
+}
+
+button:hover
+{
+  animation-name: animacionButton;
+  animation-duration: .3s;
+  position: relative;
+}
