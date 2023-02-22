@@ -118,5 +118,103 @@
     </div>
   </div>
   </div>
+<div class="doble">
+  <div class="footer-links">
+    <div class="footer-container">
+      <ul>
+        <li>
+          <a href="#">
+            <h3>
+              Información</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Correo</a>
+        </li>
+        <li>
+          <a href="#">Telefonos</a>
+        </li>
+        <li>
+          <a href="#">Materiales de apoyo</a>
+        </li>
+        <li>
+          <a href="#">Informacion acerca de nosotros</a>
+        </li>
+        <li>
+          <a href="#">Institución</a>
+        </li>
+        <li>
+          <a href="#">Credenciales</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Lenguaje</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Español</a>
+        </li>
+        <li>
+          <a href="#">Ingles</a>
+        </li>
+        <li>
+          <a href="#">Proximamente Frances</a>
+        </li>
+        <li>
+          <a href="#">Proximamente Portugues</a>
+        </li>
+        <li>
+          <a href="#">Proximamente Russo</a>
+        </li>
+        <li>
+          <a href="#">Proximamente Mandarin</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Donaciones</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Voluntarias</a>
+        </li>
+        <li>
+          <a href="#">Targeta</a>
+        </li>
+        <li>
+          <a href="#">suscripción</a>
+        </li>
+        
+      </ul>
+      <ul>
+        <li>
+          <a href="#">
+            <h3>Integrantes</h3>
+          </a>
+        </li>
+        <li>
+          <a href="#">Institución</a>
+        </li>
+        <li>
+          <a href="#">Aprendices</a>
+        </li>
+        <li>
+          <a href="#">Instructores</a>
+        </li>
+       
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <h3> LOOPSTUDIOS
+       Copyright</h3>
+  </footer>
+</div>
 </body>
 </html>

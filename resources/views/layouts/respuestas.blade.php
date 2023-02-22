@@ -27,7 +27,7 @@
         <ul  class="text-center" >
                {{--creando una lista alineada  --}}
             <li>
-                <a  href="{{route('login.index')}}" class="font-semibold border-2 border-white py-2 px4 rounded-md hover:bg-white hover:text-indigo-700" >Iniciar  sesión</a>
+                <a  href="/menu" class="font-semibold border-2 border-white py-2 px4 rounded-md hover:bg-white hover:text-indigo-700" >Regresar a menu</a>
                 
                
             </li>

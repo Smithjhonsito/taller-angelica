@@ -11,4 +11,11 @@ h1{
   position: relative;
   text-align: center;
   top: 170px;
+  background-color: rgb(69, 189, 232);
+  transition: background-color .5s ;
+  border-radius: 20px;
+}
+
+h1:hover{
+  background: transparent;
 }

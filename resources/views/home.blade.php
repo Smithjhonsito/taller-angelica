@@ -14,7 +14,7 @@
   <title>Document</title>
 </head>
 <body>
-  <h1>Bienvenidos ala empresa lider en desarrollo Virtual</h1>
+  <h1>Bienvenidos a la empresa lider en desarrollo Virtual</h1>
 </body>
 </html>
 
