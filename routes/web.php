@@ -11,6 +11,7 @@ Route::get('/', function () {
 });
 
 Route::get('/menu' ,[SessionsController::class,'menu'])->name('menu.menu');
+Route::get('/pdf' ,[SessionsController::class,'pdf'])->name('pdf.pdf');
 
 Route::get('/reclutamientos' ,[SessionsController::class,'reclutar'])->name('reclutamientos.reclutar');
 

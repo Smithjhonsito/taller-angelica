@@ -8,6 +8,11 @@ use App\Models\User;
 
 class SessionsController extends Controller
 {
+    public function pdf(){
+
+        return view('auth.pdf');
+    
+    }
     public function menu(){
 
         return view('auth.menu');

@@ -34,6 +34,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="/reclutamientos">Reclutamiento</a></li>
               <li><a class="dropdown-item" href="/respuestas">Respuestas taller</a></li>
+              <li><a class="dropdown-item" href="/">PDF</a></li>
               <li><a class="dropdown-item" href="/">Home</a></li>
             </ul>
           </li>
@@ -41,180 +42,83 @@
       </div>
     </div>
   </nav>
-
-  <div class="targetas">
-    <div class="n1">
-    <div class="card" style="width: 18rem;">
-      <img src="/img/D_NQ_NP_785931-MCO44964919930_022021-W.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Ventas de productos</h5>
-        <p class="card-text">Gafas de RV Meta Quest 2 Son las mejores gafas de realidad virtual en relación calidad-precio y se nota en un procesador muy rápido..</p>
-        <a href="#" class="btn btn-primary">Ver contenido</a>
-      </div>
+	<!--   Tarjetas-->
+  <div class="title-cards">
+		<h2>Bienvenido a nuestro portafolio de servicios virtuales</h2>
+	</div>
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+		<img src="img/hqdefault.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>Diseño Gràfico</h3>
+		<p>Podemos crear la identidad corporativa de tu empresa. Diseño , Maquetación de folletos, Catálogos, Papelería y mucho más.</p>
+		<a href="https://articulo.mercadolibre.com.co/MCO-891829173-lentes-de-realidad-virtual-oculus-quest-2-todo-en-uno-_JM?matt_tool=47620768&matt_word=&matt_source=google&matt_campaign_id=14634237776&matt_ad_group_id=150779608488&matt_match_type=&matt_network=g&matt_device=c&matt_creative=644759451829&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=701660918&matt_product_id=MCO891829173&matt_product_partition_id=404867651511&matt_target_id=pla-404867651511&gclid=CjwKCAiAl9efBhAkEiwA4ToritrW5H9XWXZLJa-VC6-dKzMt1iZYfpqNKYgyHwzNiV3eLjDcfQZ6uxoCvEIQAvD_BwE">Leer Màs</a>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="img/D_NQ_NP_785931-MCO44964919930_022021-W.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>Gestión de Redes</h3>
+		<p>Nosotros creamos y optimizamos tus perfiles en las Redes Sociales. Importantes para que tu presencia online sea completa.</p>
+		<a href="https://articulo.mercadolibre.com.co/MCO-808372788-oculus-quest-2-gafas-realidad-virtual-vr-todo-en-uno-128-gb-_JM?matt_tool=47620768&matt_word=&matt_source=google&matt_campaign_id=14634237776&matt_ad_group_id=142467807982&matt_match_type=&matt_network=g&matt_device=c&matt_creative=644826552134&matt_keyword=&matt_ad_position=&matt_ad_type=pla&matt_merchant_id=660261657&matt_product_id=MCO808372788&matt_product_partition_id=1941898895240&matt_target_id=pla-1941898895240&gclid=CjwKCAiAl9efBhAkEiwA4TorimNjRMvFFTPMiUkdgBikF-LN0FAHGrVQ9Tn9XzmFN3S580COhE48qRoCDd0QAvD_BwE">Leer Màs</a>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="img/presentacion.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>Desarrollo Web</h3>
+		<p>Creamos tu página web utilizando las últimas tecnologías disponibles. Una Web adaptativa a tu móvil o Tablet y con un gestor de contenido fácil.</p>
+		<a href="https://www.elconfidencial.com/decompras/gadgets/2022-01-24/gafas-de-realidad-virtual-usan-youtubers_3363055/">Leer Màs</a>
+	</div>
+</div>
+</div>
+  
+	<!--   Tarjetas-->
+  <div class="title-cards">
+		<h2>Donde podras encontrar la mejor experiencia</h2>
+	</div>
+<div class="container-card">
+	
+<div class="card">
+	<figure>
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRZ9DMNFHxwZcfPXJrJeBMITxPMP3FMZk_ixXzTfzt4G_C-G058">
+	</figure>
+	<div class="contenido-card">
+		<h3>Diseño Gràfico</h3>
+		<p>Podemos crear la identidad corporativa de tu empresa. Diseño , Maquetación de folletos, Catálogos, Papelería y mucho más.</p>
+		<a href="https://www.forbes.com.mx/forbes-life/tecnologia-gafas-de-realidad-virtual-para-metaverso/">Leer Màs</a>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="img/1620711856_306032_1620711989_noticia_normal.jpg">
+	</figure>
+	<div class="contenido-card">
+		<h3>Gestión de Redes</h3>
+		<p>Nosotros creamos y optimizamos tus perfiles en las Redes Sociales. Importantes para que tu presencia online sea completa.</p>
+		<a href="https://www.elconfidencial.com/decompras/gadgets/2022-01-24/gafas-de-realidad-virtual-usan-youtubers_3363055/">Leer Màs</a>
+	</div>
+</div>
+<div class="card">
+	<figure>
+		<img src="img/2272469.webp">
+	</figure>
+	<div class="contenido-card">
+		<h3>Desarrollo Web</h3>
+		<p>Creamos tu página web utilizando las últimas tecnologías disponibles. Una Web adaptativa a tu móvil o Tablet y con un gestor de contenido fácil.</p>
+		<a href="https://www.elconfidencial.com/decompras/gadgets/2022-01-24/gafas-de-realidad-virtual-usan-youtubers_3363055/">Leer Màs</a>
+	</div>
 </div>
 </div>
 
-<div class="n2">
-      <div class="card" style="width: 18rem;">
-        <img src="/img/presentacion.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Manejamos extandares</h5>
-          <p class="card-text">Gafas de RV Meta Quest 2
 
-            Son las mejores gafas de realidad virtual en relación calidad-precio y se nota en un procesador muy rápido.</p>
-          <a href="#" class="btn btn-primary">Ver contenido</a>
-        </div>
-  
-    </div>
-  </div>
-
-  <div class="n3">
-    <div class="card" style="width: 18rem;">
-      <img src="/img/D_NQ_NP_785931-MCO44964919930_022021-W.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Ventas de productos</h5>
-        <p class="card-text">Gafas de RV Meta Quest 2 Son las mejores gafas de realidad virtual en relación calidad-precio y se nota en un procesador muy rápido..</p>
-        <a href="#" class="btn btn-primary">Ver contenido</a>
-      </div>
-    </div>
-  </div>
-    <div class="n4">
-      <div class="card" style="width: 18rem;">
-        <img src="/img/HTB18NNwKh1YBuNjy1zcq6zNcXXaY.jpg_.webp" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Manejamos extandares </h5>
-          <p class="card-text">Gafas de RV Meta Quest 2
-
-            Son las mejores gafas de realidad virtual en relación calidad-precio y se nota en un procesador muy rápido.</p>
-          <a href="#" class="btn btn-primary">Ver contenido</a>
-        </div>
-  
-    </div>
-  </div>
-
-  <div class="n5">
-    <div class="card" style="width: 18rem;">
-      <img src="/img/1620711856_306032_1620711989_noticia_normal.jpg" class="card-img-top" alt="...">
-      <div class="card-body">
-        <h5 class="card-title">Ventas de productos</h5>
-        <p class="card-text">Gafas de RV Meta Quest 2 Son las mejores gafas de realidad virtual en relación calidad-precio y se nota en un procesador muy rápido.</p>
-        <a href="#" class="btn btn-primary">Ver contenido</a>
-      </div>
-    </div>
-  </div>
-
-
-    <div class="n6">
-      <div class="card" style="width: 18rem;">
-        <img src="/img/hqdefault.jpg" class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Manejamos extandares</h5>
-          <p class="card-text">Gafas de RV Meta Quest 2
-
-            Son las mejores gafas de realidad virtual en relación calidad-precio y se nota en un procesador muy rápido.</p>
-          <a href="#" class="btn btn-primary">Ver contenido</a>
-        </div>
-  
-    </div>
-  </div>
-  </div>
-<div class="doble">
-  <div class="footer-links">
-    <div class="footer-container">
-      <ul>
-        <li>
-          <a href="#">
-            <h3>
-              Información</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Correo</a>
-        </li>
-        <li>
-          <a href="#">Telefonos</a>
-        </li>
-        <li>
-          <a href="#">Materiales de apoyo</a>
-        </li>
-        <li>
-          <a href="#">Informacion acerca de nosotros</a>
-        </li>
-        <li>
-          <a href="#">Institución</a>
-        </li>
-        <li>
-          <a href="#">Credenciales</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Lenguaje</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Español</a>
-        </li>
-        <li>
-          <a href="#">Ingles</a>
-        </li>
-        <li>
-          <a href="#">Proximamente Frances</a>
-        </li>
-        <li>
-          <a href="#">Proximamente Portugues</a>
-        </li>
-        <li>
-          <a href="#">Proximamente Russo</a>
-        </li>
-        <li>
-          <a href="#">Proximamente Mandarin</a>
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Donaciones</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Voluntarias</a>
-        </li>
-        <li>
-          <a href="#">Targeta</a>
-        </li>
-        <li>
-          <a href="#">suscripción</a>
-        </li>
-        
-      </ul>
-      <ul>
-        <li>
-          <a href="#">
-            <h3>Integrantes</h3>
-          </a>
-        </li>
-        <li>
-          <a href="#">Institución</a>
-        </li>
-        <li>
-          <a href="#">Aprendices</a>
-        </li>
-        <li>
-          <a href="#">Instructores</a>
-        </li>
-       
-        </li>
-      </ul>
-    </div>
-  </div>
-
-  <!-- Footer -->
-  <footer class="footer">
-    <h3> LOOPSTUDIOS
-       Copyright</h3>
-  </footer>
 </div>
 </body>
 </html>
