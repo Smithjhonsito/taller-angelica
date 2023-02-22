@@ -1,0 +1,14 @@
+body{
+  
+  background-image: url(/img/fondo2jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+h1{
+  color: rgb(248, 248, 248);
+  font-size: 60px;
+  position: relative;
+  text-align: center;
+  top: 170px;
+}

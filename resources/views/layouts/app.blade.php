@@ -16,12 +16,12 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1/tailwind.min.css">
 
 </head>
-<body class="bg-gray-100 text gray-800" >
+<body class="bg-gray-90 text gray-800" >
 
-    <nav class="flex py-5 bg-indigo-500 text-white " >
+    <nav class="flex py-5 bg-dark text-white " >
 
     <div  class="w-1/2 px-12 mr-auto" >
-        <p class="text-2xl foont-bold">Mis primeros auxilitos</p>
+        <p class="text-2xl foont-bold">LOOPSTUDIOS</p>
     </div>
 
         <ul  class="text-center" >
