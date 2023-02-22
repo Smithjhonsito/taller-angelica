@@ -1,0 +1,39 @@
+body{
+  background-color: black;
+  background-image: url(/img/reclutamiento-digital.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+
+.n1{
+
+  font-size: 50px;
+  position: relative;
+  top: 30px;
+  background-color: goldenrod;
+  width: 480px;
+  color: aliceblue;
+  
+}
+
+.n2{
+  font-size: 30px;
+  position: relative;
+  top: 50px;
+  width: 480px;
+ text-align: center;
+ font: 2em sans-serif;
+ font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+
+}
+.n4{
+
+  position: relative;
+  top: -100px;
+  left: 1200px;
+  font-size: 40px;
+  color: aliceblue;
+  
+}

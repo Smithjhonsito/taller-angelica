@@ -8,7 +8,16 @@ use App\Models\User;
 
 class SessionsController extends Controller
 {
+    public function menu(){
 
+        return view('auth.menu');
+    
+    }
+    public function reclutar(){
+
+        return view('layouts.reclutamiento');
+    
+    }
 
     public function respuesta(){
 
@@ -40,7 +49,7 @@ class SessionsController extends Controller
 
         }
         
-  return redirect()->to('/');
+  return redirect()->to('menu');
 
     }
 

@@ -11,7 +11,7 @@
   <div class="container">
   <h1>Gracias por diligenciar tu contenido</h1>
   <p>Nuestros asesores te llamaran lo mas pronto posible </p>
-  <a href="/login">Regresar</a>
+  <a href="/menu">Regresar</a>
 </div>
 </body>
 </html>

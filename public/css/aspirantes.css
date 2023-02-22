@@ -7,7 +7,7 @@ body{
 }
 .hola{
   position: relative;
-  top: 140px;
+  top: -10px;
 
 }
 h1{
@@ -16,9 +16,10 @@ h1{
 
 .text-primary{
   position: relative;
-  left: 95px; 
+  left: 107px; 
   color: blue;
   top: 20px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 
 
 }
@@ -27,6 +28,7 @@ h1{
   position: relative;
   left: 195px; 
   color: blue;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
  
 }
 

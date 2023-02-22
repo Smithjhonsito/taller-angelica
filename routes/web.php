@@ -10,8 +10,9 @@ Route::get('/', function () {
     return view('home');
 });
 
+Route::get('/menu' ,[SessionsController::class,'menu'])->name('menu.menu');
 
-
+Route::get('/reclutamientos' ,[SessionsController::class,'reclutar'])->name('reclutamientos.reclutar');
 
 Route::get('/register' ,[RegisterController::class,'create'])->name('register.index');
 Route::get('/envio' ,[RegisterController::class,'envio'])->name('envio.envio');

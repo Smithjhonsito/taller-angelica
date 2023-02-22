@@ -1,0 +1,38 @@
+.n4{
+  position: relative;
+  left: 510px;
+  top: -1100px;
+}
+.n5{
+  position: relative;
+  left: 1000px;
+  top: -1527px;
+}
+.n1{
+  position: relative;
+  top: 90px;
+}
+.n2{
+  position: relative;
+  top: 220px;
+
+}
+
+.n3{
+  position: relative;
+  top: -155px;
+
+  left: 510px;
+
+}
+
+.n6{
+  position: relative;
+  top: -1412px;
+  left: 1000px;
+
+}
+
+body{
+ background-color: black;
+}
