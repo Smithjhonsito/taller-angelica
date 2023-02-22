@@ -1,0 +1,30 @@
+body{
+  background-color: black;
+  background-image: url(/img/consejos_reclutamiento_y_seleccion-2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+
+.container{
+
+  position: relative;
+  text-align: center;
+  top: 180px;
+}
+h1{
+  font-size: 80px;
+}
+p{
+  font-size: 50px;
+}
+a{
+  font-size: 30px;
+  background-color: rgb(248, 185, 47);
+  transition: background-color .5s ;
+  border-radius: 10px;
+}
+a:hover{
+  background-color: rgb(255, 21, 0);
+ 
+}

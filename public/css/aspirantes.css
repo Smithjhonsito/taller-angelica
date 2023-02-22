@@ -1,0 +1,32 @@
+body{
+  background-color: black;
+  background-image: url(/img/actitudesreclutador.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+.hola{
+  position: relative;
+  top: 140px;
+
+}
+h1{
+  color: rgb(240, 28, 0);
+}
+
+.text-primary{
+  position: relative;
+  left: 95px; 
+  color: blue;
+  top: 20px;
+
+
+}
+.enviar{
+
+  position: relative;
+  left: 195px; 
+  color: blue;
+ 
+}
+

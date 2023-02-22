@@ -7,6 +7,17 @@ use App\Models\User;
 class RegisterController extends Controller
 {
     
+   
+    public function envio(){
+
+        return view('layouts.envioF');
+    
+    }
+    public function aspirantes(){
+
+        return view('layouts.aspirantes');
+    
+    }
 public function create(){
 
     return view('auth.register');
@@ -23,6 +34,7 @@ public function store(){
     return redirect()->to('/');
     
 }
+
 
 
 }

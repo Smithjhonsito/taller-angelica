@@ -8,6 +8,13 @@ use App\Models\User;
 
 class SessionsController extends Controller
 {
+
+
+    public function respuesta(){
+
+        return view('layouts.respuestas');
+    
+    }
     public function create(){
 
         return view('auth.login');
