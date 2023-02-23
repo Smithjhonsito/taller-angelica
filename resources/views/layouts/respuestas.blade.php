@@ -26,7 +26,8 @@
     <nav class="flex py-2 bg-dark text-white ">
 
         <div class="w-1/2 px-8 mr-auto">
-            <p class="text-2xl foont-bold">LOOPSTUDIOS</p>
+            <a class="navbar-brand" href="{{ route('menu.menu') }}">LOOPSTUDIOS</a>
+
         </div>
 
         <ul class="text-center">
@@ -293,7 +294,7 @@
     </div>
 
     <form action="{{ route('preguntas.post') }}" method="POST">
-      @csrf
+        @csrf
 
         <div class="card m-5">
             <ul>
@@ -395,7 +396,7 @@
                     <textarea type="text" name="pregunta9" id="editor" class="form-control w-full" rows="6"></textarea>
                 </div>
 
-                <ol>10. ¿Hay algún sitio web que le gustey que sirva como referencia para lo que está buscando en su
+                <ol>10. ¿Hay algún sitio web que le guste y que sirva como referencia para lo que está buscando en su
                     sitio web?
                 </ol>
                 <div class="textarea m-5">
@@ -403,9 +404,21 @@
                 </div>
 
             </ul>
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                      <a class="btn btn-danger" onclick="location.href='{{ route('menu.menu') }}'">Cancelar</a>
+                    </div>
+                    <div class="col-sm-6">
+                        <button type="submit" class="btn btn-success btn-lg">Enviar</button>
+                    </div>
+                </div>
+            </div>
+
         </div>
 
-        <button type="submit">enviar</button>
+
 
     </form>
 </body>

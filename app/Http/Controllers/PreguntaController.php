@@ -38,8 +38,15 @@ class PreguntaController extends Controller
       
           ]);
       
-          return redirect()->route('menu.menu')->with('subir', 'ok');
+          return redirect()->route('show.respuestas')->with('subir', 'ok');
 
     }
+
+    public function showRespuestasRespondidas()
+    {
+      $respuestasRespondidas = Pregunta::all();
+      return view('respuestas.showRespuestas', compact('respuestasRespondidas'));
+    }
+
 
 }

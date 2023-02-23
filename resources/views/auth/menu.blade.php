@@ -20,7 +20,7 @@
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
     </script>
     <link rel="stylesheet" href="{{ asset('css/menu.css') }}">
-    <title>Document</title>
+    <title>Portafolio</title>
 
 
     <!-- Navbar content -->
@@ -30,7 +30,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand">LOOPSTUDIOS</a>
+            <a class="navbar-brand" href="{{ route('menu.menu') }}" >LOOPSTUDIOS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -47,6 +47,7 @@
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                             <li><a class="dropdown-item" href="/reclutamientos">Reclutamiento</a></li>
                             <li><a class="dropdown-item" href="/respuestas">Respuestas taller</a></li>
+                            <li><a class="dropdown-item" href="{{route('show.respuestas')}}">Respuestas hechas</a></li>
                             <li><a class="dropdown-item" href="{{ route('pdf.pdf') }}">PDF</a></li>
                             <li><a class="dropdown-item" href="/">Home</a></li>
                         </ul>

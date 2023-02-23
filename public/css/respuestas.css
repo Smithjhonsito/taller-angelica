@@ -161,12 +161,11 @@ textarea {
   text-align: center;
 }
 
-button{
+/* button{
   border-radius: 10px !important;
-  font-family: Consolas;
-  font-size: 15px;
+  font-size: 20px !important;
   margin: 20px;
-}
+} */
 
 button:hover
 {

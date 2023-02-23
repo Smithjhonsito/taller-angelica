@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
    
-    <title>@yield('title')-laravel App</title>
+    <title>@yield('title') Reclutamiento</title>
 
 
     @yield('css')
@@ -21,7 +21,8 @@
     <nav class="flex py-2 bg-dark text-white " >
 
     <div  class="w-1/2 px-8 mr-auto" >
-        <p class="text-2xl foont-bold">LOOPSTUDIOS</p>
+        <a class="navbar-brand" href="{{ route('menu.menu') }}" >LOOPSTUDIOS</a>
+
     </div>
 
         <ul  class="text-center" >

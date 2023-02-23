@@ -31,7 +31,7 @@ public function store(){
     
     auth()->login($user);
    
-    return redirect()->to('/');
+    return redirect()->to('/login');
     
 }
 

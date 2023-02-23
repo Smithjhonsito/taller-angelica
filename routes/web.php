@@ -28,4 +28,7 @@ Route::get('/aspirantes' ,[RegisterController::class,'aspirantes'])->name('aspir
 
 Route::controller(PreguntaController::class)->group(function (){
     Route::post('/preguntas','storePreguntas')->name('preguntas.post');
+
+    Route::get('/preguntas-respondidas','showRespuestasRespondidas')->name('show.respuestas');
+
 });
