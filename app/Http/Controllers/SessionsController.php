@@ -1,75 +1,53 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Models\User;
 
-
 class SessionsController extends Controller
 {
-    public function pdf(){
+  public function pdf()
+  {
+    return view('auth.pdf');
+  }
 
-        return view('auth.pdf');
-    
-    }
-    public function menu(){
+  public function menu()
+  {
+    return view('auth.menu');
+  }
 
-        return view('auth.menu');
-    
-    }
-    public function reclutar(){
+  public function reclutar()
+  {
+    return view('layouts.reclutamiento');
+  }
 
-        return view('layouts.reclutamiento');
-    
-    }
+  public function respuesta()
+  {
+    return view('layouts.respuestas');
+  }
 
-    public function respuesta(){
+  public function create()
+  {
+    return view('auth.login');
+  }
 
-        return view('layouts.respuestas');
-    
-    }
-    public function create(){
+  public function store()
+  {
+    if (auth()->attempt(request(['email', 'password'])) == false) {
 
-        return view('auth.login');
-    
-    }
+      return back()->withErrors([
+        'message' => 'El correo o la contraseña son incorrectos, por favor  vuelva a introducirlos'
 
-
-    public function store(){
-
-
-        
-        
-    
-
-
-        if(auth()->attempt(request(['email','password']))==false){
-
-            return back()->withErrors([
-                'message' => 'El correo o la contraseña son incorrectos, por favor  vuelva a introducirlos'
-
-            ]);
-
-
-        }
-        
-  return redirect()->to('menu');
-
+      ]);
     }
 
-
-    public function destoy(){
-
-
-        auth()->logout();
-
-        return redirect()->to('/');
-
-    }
+    return redirect()->to('menu');
+  }
 
 
-
-
+  public function destoy()
+  {
+    auth()->logout();
+    return redirect()->to('/');
+  }
 }
-

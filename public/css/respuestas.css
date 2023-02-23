@@ -4,9 +4,9 @@ form{
   top: 100px;
 }
 .nuevo{
-  font-size: 80px;
+  font-size: 70px;
   position: relative;
-  top: -60px;
+  top: -0px;
   background-color: rgb(227, 215, 225);
   transition: background-color .5s;
   border-radius: 70px;
@@ -21,7 +21,6 @@ body{
   background-image: url(/img/fondo9.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 5;
 }
 
 p{
@@ -40,7 +39,7 @@ nav {
 a {
   text-decoration: none;
   color: white;
-  font-size: 20px;
+  font-size: 20px !important;
   margin: 3px;
 }
 
@@ -108,6 +107,8 @@ img:hover {
 input[type="text"] {
   color: black;
   background-color: aliceblue;
+  border: 1px solid #000;
+  border-radius: 10px;
 }
 
 footer {
@@ -129,9 +130,9 @@ ul {
 
 ol {
   color: black;
-  font-style: bold;
   margin-top: 50px;
   font-size: 20px;
+  font-weight: bold !important;
 }
 
 label {
@@ -172,4 +173,8 @@ button:hover
   animation-name: animacionButton;
   animation-duration: .3s;
   position: relative;
+}
+
+.card-body{
+  font-size:20px;
 }
