@@ -44,7 +44,6 @@
     @yield('content')
     <h1 class="nuevo">Respuestas al taller propuesto en clase.</h1>
 
-
     <div class="container">
         <div class="row">
 
@@ -297,6 +296,8 @@
         @csrf
 
         <div class="card m-5">
+            <h1 class="h1 m-3"> Preguntas cerradas </h1>
+
             <ul>
                 <ol>1. ¿Con qué frecuencia utiliza internet?</ol>
                 <div class="preguntas">
@@ -380,6 +381,8 @@
                 <label for="a">Importante</label>
                 <input type="radio" name="pregunta7" id="" value="No es muy importante">
                 <label for="a">No es muy importante</label>
+
+                <h1 class="h1 m-3"> Preguntas Abiertas </h1>
 
                 <ol>8. ¿Qué le gustaría ver en el sition web que no se haya mencionado en las preguntas anteriores?
                 </ol>
